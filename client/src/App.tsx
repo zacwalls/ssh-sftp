@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './App.css';
 import Navheader from './Components/Nav';
 import Sidenav from './Components/Sidenav';
 
