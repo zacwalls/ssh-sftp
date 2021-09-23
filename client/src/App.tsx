@@ -8,7 +8,7 @@ function App() {
     <div className="uk-container" style={{padding: "0", margin: "0"}}>
       <Sidenav />
       <div className="main" style={{margin: "0 0 0 250px", width: "100%"}}>
-        <Navheader titleText="Home" />
+        <Navheader title="Home" />
       </div>
     </div>
   );

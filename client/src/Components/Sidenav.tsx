@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sidenav: React.FC = () => {
     return (
-        <div id="offcanvas-nav" uk-offcanvas="overlay: true" className="uk-offcanvas uk-offcanvas-overlay uk-open" style={{display: "block"}}>
+        <div id="offcanvas-nav" uk-offcanvas="overlay: true" className="uk-offcanvas uk-offcanvas-overlay uk-open" style={{display: "block", width: "0"}}>
             <div className="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide" style={{width: "250px"}}>
                 <ul className="uk-nav uk-nav-default">
                     <li className="uk-active"><a href="/">Active</a></li>
